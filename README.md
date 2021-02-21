@@ -300,6 +300,27 @@ Publish the website in the given URL.
 ```
 ### failed.html
 ```
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Event Management</title>
+  </head>
+  <body  style="background-color: rgb(4, 19, 53);">
+    <div class="jumbotron jumbotron-fluid text-center" style="background-color: rgb(4, 19, 53);">
+        <img src="/static/img/sid.png" class="col-lg-12" alt="banner">
+<div class="card bg-dark text-white">
+  <img class="card-img" src="/static/img/f.jpg" alt="Card image" style="height: 18rem;">
+  <div class="card-img-overlay">
+    <h5 class=" card-text display-4 font-weight-bold">Worshop on IOT</h5>
+    <p class="card-text font-weight-bold">LIGHT UP THE IOT</p>
+    </div>
 </div>
 </div>
         </div>
@@ -478,6 +499,16 @@ def success(request):
 
 ![output](./static/img/oi7.png)
 
+## CODE VALIDATION REPORT:
+![output](./static/img/vali1.png)
+
+![output](./static/img/vali2.png)
+
+![output](./static/img/vali3.png)
+
+![output](./static/img/vali4.png)
+
+![output](./static/img/vali5.png)
 
 ## RESULT:
    Thus a UX design and develop a web application for event registration is created and is hosted in the URL http://gowri.student.saveetha.in:8000/home, http://gowri.student.saveetha.in:8000/participants. HTML code is validated.
